@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Basic Movement Settings")]
     [SerializeField] private float speed;
-    private Vector2 move;
+    private Vector2 move; //Justin is a gay ass dude
 
     [Header("Mouse/Joystick Settings")]
     private Vector2 mouseLook, joystickLook;
