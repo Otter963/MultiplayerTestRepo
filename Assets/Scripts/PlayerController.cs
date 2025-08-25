@@ -83,6 +83,11 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        playerAnim.SetTrigger("Interact");
+    }
+
     public void MovePlayerWithAim()
     {
         if (isPC)
